@@ -1,0 +1,21 @@
+{
+    "name": "yoelvp/helyo-core",
+    "description": "A minimalistic PHP framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Helyo\\": "./core/Helyo"
+        },
+        "files": [
+            "./core/Helyo/Helpers/app.php"
+        ]
+  },
+  "authors": [
+        {
+            "name": "yoelvp",
+            "email": "yoelvp73@gmail.com"
+        }
+    ],
+    "require": {}
+}
